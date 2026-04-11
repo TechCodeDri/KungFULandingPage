@@ -8,6 +8,8 @@
 </head>
 <body>
 
+ 
+
     <!-- HEADER -->
     <header>
         <nav>
@@ -15,7 +17,7 @@
           
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#Curiosidades">Curiosidades</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -23,35 +25,71 @@
 
     <!-- HERO (DESTAQUE PRINCIPAL) -->
     <section id="hero">
-        <h2>Disciplina, força e equilíbrio</h2>
-        <p>Crie soluções modernas e eficientes com tecnologia.</p>
-        <button>Começar agora</button>
-    </section>
+
+    <h2>Disciplina, força e equilíbrio</h2>
+
+<section id="galeria">
+    
+    <div class="carrossel">
+        
+        <div class="carrossel-container">
+        <img src="assets/img/foto1.png" alt="Treino de Kung Fu">
+        <img src="assets/img/foto2.png" alt="Prática de golpes">
+        <img src="assets/img/foto3.png" alt="Treino em grupo">
+        <img src="assets/img/foto4.png" alt="Competição de Kung Fu">
+        <img src="assets/img/foto5.png" alt="Exercícios de equilíbrio">
+        <img src="assets/img/foto6.png" alt="Movimentos de luta">
+        </div>
+
+        <button class="next">&#10095;</button>
+    </div>
+</section>
+</section>
+  
 
     <!-- SOBRE -->
     <section id="sobre">
-        <h2>Sobre nós</h2>
-        <p>Somos uma empresa focada em inovação e resultados digitais.</p>
-    </section>
+    <h2>Sobre o Kung Fu Taishan</h2>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos">
-        <h2>Nossos Serviços</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Desenvolvimento Web</h3>
-                <p>Sites modernos e responsivos.</p>
-            </div>
-            <div class="card">
-                <h3>Automação</h3>
-                <p>Processos otimizados com tecnologia.</p>
-            </div>
-            <div class="card">
-                <h3>Consultoria</h3>
-                <p>Estratégias para crescimento digital.</p>
-            </div>
+    <p>
+        O Kung Fu Taishan é mais do que uma prática de luta — é uma jornada de autoconhecimento, disciplina e equilíbrio. Inspirado nas tradições milenares da China, ele carrega consigo a essência de uma arte que atravessou séculos, moldando não apenas guerreiros, mas também pessoas mais fortes por dentro.
+    </p>
+
+    <p>
+        De forma lúdica, podemos imaginar o Kung Fu como a dança de um tigre e a leveza de uma garça. Em alguns momentos, os movimentos são firmes, potentes e cheios de energia; em outros, suaves, fluidos e precisos. Cada golpe, cada postura, conta uma história — como se o corpo estivesse conversando com o tempo e com a natureza.
+    </p>
+
+    <p>
+        No estilo Taishan, o praticante aprende que a verdadeira força não está apenas nos músculos, mas na mente tranquila e no coração equilibrado. Assim como uma montanha (que inspira o nome “Taishan”), o aluno é incentivado a ser firme diante das dificuldades, resistente às tempestades e constante em sua evolução.
+    </p>
+
+    <p>
+        Treinar Kung Fu é como plantar uma semente: no começo, exige paciência, dedicação e cuidado. Com o tempo, essa semente cresce, floresce e se transforma em confiança, foco e respeito — por si mesmo e pelos outros.
+    </p>
+</section>
+
+    <!-- Curiosidades -->
+    <section id="Curiosidades">
+    <h2>Curiosidades sobre o Taishan no Brasil</h2>
+
+    <div class="cards">
+        <div class="card">
+            <p>Fundada em 1979 em Osasco/SP por Aparecido Lopes de Jesus (Mestre Lopes).</p>
         </div>
-    </section>
+
+        <div class="card">
+            <p>Filiada à Federação Paulista de Kung-Fu/Wushu e reconhecida pela Confederação Brasileira de Kung-Fu/Wushu (CBKW).</p>
+        </div>
+
+        <div class="card">
+            <p>Os treinos abrangem diversas faixas etárias.</p>
+        </div>
+
+        <div class="card">
+            <p>Eles também realizam competições internas.</p>
+        </div>
+    </div>
+</section>
 
     <!-- CONTATO -->
     <section id="contato">
@@ -66,8 +104,32 @@
 
     <!-- RODAPÉ -->
     <footer>
-        <p>© 2026 MinhaMarca - Todos os direitos reservados</p>
+        <p>© 2026 SiteEducacional - Todos os direitos reservados</p>
     </footer>
+
+    <script>
+let index = 0;
+const container = document.querySelector('.carrossel-container');
+const images = document.querySelectorAll('.carrossel-container img');
+
+function showSlide(i) {
+    if (i >= images.length) index = 0;
+    if (i < 0) index = images.length - 1;
+
+    container.style.transform = `translateX(-${index * 100}%)`;
+}
+
+document.querySelector('.next').addEventListener('click', () => {
+    index++;
+    showSlide(index);
+});
+
+document.querySelector('.prev').addEventListener('click', () => {
+    index--;
+    showSlide(index);
+});
+</script>  
+ 
 
 </body>
 </html>
