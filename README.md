@@ -47,7 +47,7 @@ O desenvolvimento teve como objetivo consolidar conhecimentos em front-end, boas
 
 ## 🌐 Demo
 
-🔗 **[Ver Demo ao Vivo](https://seuusuario.github.io/nome-do-repositorio/)**
+🔗 **[Ver Demo ao Vivo](https://techcodedri.github.io/KungFULandingPage/)**
 
 ---
 
@@ -105,9 +105,9 @@ O desenvolvimento teve como objetivo consolidar conhecimentos em front-end, boas
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/TechCodeDri/KungFULandingPage.git
 
-   cd nome-do-repositorio
+   cd KungFULandingPage
    
 # Com VS Code + Live Server
 code .
