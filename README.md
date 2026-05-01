@@ -1,12 +1,21 @@
-# 🚀 Landing Page
+# 🚀 Landing Page - Kung Fu Taishan
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white)
+
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 
-Breve descrição do projeto — ex: Landing page moderna e responsiva para [nome do produto/serviço].
+Landing page desenvolvida utilizando HTML5, CSS3 e JavaScript, com foco em responsividade, interatividade e organização semântica do código.
 
-![Preview do Projeto](./assets/preview.png)
+
+
+## 🎨 Layout
+O design foi inspirado na estética marcial, utilizando cores como:
+- Preto (força e disciplina)
+- Vermelho (energia e poder)
+- Dourado (tradição e excelência)
+![Preview do Projeto](./assets/img/preview.jpeg)
 
 ---
 
@@ -18,16 +27,21 @@ Breve descrição do projeto — ex: Landing page moderna e responsiva para [nom
 - [Tecnologias](#tecnologias)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Como Usar](#como-usar)
-- [Personalização](#personalização)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Autora](#Desenvolvido por)
 - [Contato](#contato)
 
 ---
 
 ## 📖 Sobre
 
-Descreva aqui o objetivo da landing page, para quem é destinada e qual problema ela resolve.
+O projeto simula o site institucional de uma academia de Kung Fu Taishan no Brasil, contendo:
+
+Estrutura semântica de páginas
+Estilização moderna com CSS
+Componentes interativos (carrossel de imagens)
+Layout responsivo para diferentes dispositivos
+
+O desenvolvimento teve como objetivo consolidar conhecimentos em front-end, boas práticas de código e construção de interfaces visuais atrativas.
 
 ---
 
@@ -44,10 +58,9 @@ Descreva aqui o objetivo da landing page, para quem é destinada e qual problema
 - [x] Navegação suave (smooth scroll)
 - [x] Seção Hero com CTA
 - [x] Seção de serviços/recursos
-- [x] Seção de depoimentos
 - [x] Formulário de contato
 - [x] Footer com links e redes sociais
-- [ ] Animações ao scroll (em breve)
+
 
 ---
 
@@ -57,10 +70,27 @@ Descreva aqui o objetivo da landing page, para quem é destinada e qual problema
 |------------|-----|
 | **HTML5**  | Estrutura e semântica |
 | **CSS3**   | Estilização e responsividade |
+| **JavaScript** | Componentes interativos (carrossel de imagens) |
 
 ---
 
+
 ## 📁 Estrutura do Projeto
+
+/KungFULandingPage
+├── index.html
+├── style.css
+└── assets/
+    └── img/
+        ├── kungFuLogo.png
+        ├── foto1.jpg
+        ├── foto2.jpg
+        ├── foto3.jpg
+        ├── foto4.jpg
+        ├── foto5.jpg
+        ├── foto9.jpg
+        └── preview.jpeg
+└── 📄 README.md        
 
 ---
 
@@ -83,9 +113,15 @@ Descreva aqui o objetivo da landing page, para quem é destinada e qual problema
 code .
 # Ou simplesmente abra o index.html no navegador
 
-:root {
-  --primary-color: #6C63FF;
-  --secondary-color: #F50057;
-  --text-color: #333333;
-  --bg-color: #FFFFFF;
-}
+
+## 👩‍💻 Autora
+Desenvolvido por **Adriana Medeiros Rodrigues**
+
+---
+
+## 📬 Contato
+
+- 💼 LinkedIn: www.linkedin.com/in/adriana-medeiros-ti 
+- 💻 GitHub: https://github.com/TechCodeDri 
+
+
