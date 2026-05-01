@@ -27,8 +27,8 @@ O design foi inspirado na estética marcial, utilizando cores como:
 - [Tecnologias](#tecnologias)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Como Usar](#como-usar)
-- [Autora](#Desenvolvido por)
-- [Contato](#contato)
+- [Autora](#Autora)
+- [Contato](https://github.com/TechCodeDri/KungFULandingPage#contato)
 
 ---
 
